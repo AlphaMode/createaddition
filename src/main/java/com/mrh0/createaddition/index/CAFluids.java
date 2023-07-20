@@ -35,7 +35,7 @@ public class CAFluids {
 		SEED_OIL = seedOil.register();
 		
 		var bioethanol = CreateAddition.REGISTRATE.fluid("bioethanol", new ResourceLocation("createaddition","fluid/bioethanol_still"), new ResourceLocation("createaddition","fluid/bioethanol_flow"))
-				.attributes(b -> new CreateAdditionsAttributeHandler("fluid.createaddition.seed_oil", 2500, 1600))
+				.attributes(b -> new CreateAdditionsAttributeHandler("fluid.createaddition.bioethanol", 2500, 1600))
 				.properties(p -> p.levelDecreasePerBlock(2)
 						.tickRate(15)
 						.flowSpeed(6)
